@@ -745,9 +745,8 @@ form .input-email:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.terms-and-co {
-  color: var(--active-color) !important;
-  /* trebuia sa pun din start clase la linkuri sa nu ajung la !important */
+a.terms-and-co {
+  color: var(--active-color);
   line-height: 1.71;
   text-decoration-line: underline;
 }
