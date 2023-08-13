@@ -729,10 +729,12 @@ form .input-email:focus {
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .hidden-checkbox:checked ~ .checkbox-icon {
   background-image: url("/images/icon-check.svg"); /* Nu le vede din svg sprite, doar asa .. */
+  transition: var(--transition);
 }
 
 .send-button {
