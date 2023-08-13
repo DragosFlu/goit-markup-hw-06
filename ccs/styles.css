@@ -725,7 +725,7 @@ form .input-email:focus {
   width: 18px;
   height: 18px;
   margin-right: 8px;
-  background-image: url("/images/icon-unchecked.svg");
+  background-image: url("../images/icon-unchecked.svg");
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -733,7 +733,7 @@ form .input-email:focus {
 }
 
 .hidden-checkbox:checked ~ .checkbox-icon {
-  background-image: url("/images/icon-check.svg"); /* Nu le vede din svg sprite, doar asa .. */
+  background-image: url("../images/icon-check.svg"); /* Nu le vede din svg sprite, doar asa (( */
   transition: var(--transition);
 }
 
